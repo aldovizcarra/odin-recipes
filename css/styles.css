@@ -1,11 +1,15 @@
 body {
-  background-color: #eeeeee;
+  background-color: #d8d2cb;
+  font-family: Verdana, sans-serif;
+  color: #3a3845;
 }
 
 .heading {
   font-family: Helvetica, sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-align: center;
+  color: #1c658c;
+  margin-bottom: 2rem;
 }
 
 .recipe-list {
@@ -14,4 +18,38 @@ body {
 
 .recipe-links {
   text-decoration: none;
+  color: #3a3845;
+  line-height: 2rem;
+}
+
+/* Lasagna Page Styles */
+
+.lasagna-img {
+  width: 400px;
+  height: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+.description-heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.lasagna-description {
+  text-align: center;
+}
+
+.list-heading {
+  color: #1c658c;
+}
+
+.ingredients-list {
+  margin-left: 2rem;
+  list-style: disc;
+}
+
+.step-list {
+  margin-left: 2.3rem;
+  list-style: decimal;
 }
