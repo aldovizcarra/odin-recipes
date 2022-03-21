@@ -1,4 +1,17 @@
+body {
+  background-color: #eeeeee;
+}
+
 .heading {
   font-family: Helvetica, sans-serif;
+  font-size: 3rem;
   text-align: center;
+}
+
+.recipe-list {
+  text-align: center;
+}
+
+.recipe-links {
+  text-decoration: none;
 }
