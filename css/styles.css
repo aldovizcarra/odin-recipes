@@ -72,3 +72,12 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+/* Pancakes Page Styles */
+
+.pancakes-img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
