@@ -2,6 +2,7 @@ body {
   background-color: #d8d2cb;
   font-family: Verdana, sans-serif;
   color: #3a3845;
+  line-height: 1.5;
 }
 
 .heading {
@@ -22,26 +23,21 @@ body {
   line-height: 2rem;
 }
 
-/* Lasagna Page Styles */
-
-.lasagna-img {
-  width: 400px;
-  height: 450px;
-  display: block;
-  margin: 0 auto;
-}
-
 .description-heading {
   font-size: 2rem;
   text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
 }
 
-.lasagna-description {
+.description-summary {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .list-heading {
   color: #1c658c;
+  margin-bottom: 1rem;
 }
 
 .ingredients-list {
@@ -52,4 +48,27 @@ body {
 .step-list {
   margin-left: 2.3rem;
   list-style: decimal;
+}
+
+.ingredients-list,
+.step-list {
+  margin-bottom: 1rem;
+}
+
+/* Lasagna Page Styles */
+
+.lasagna-img {
+  width: 400px;
+  height: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Salmon Page Styles */
+
+.salmon-img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
